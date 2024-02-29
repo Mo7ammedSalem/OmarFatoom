@@ -176,6 +176,22 @@ img {
     height: 300px;
   }
 }
+
+@media (max-width: 550px) {
+  img {
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  img {
+    margin-top: 90px;
+  }
+}
+
+
 @media (max-width: 350px) {
   img {
     display: none;
